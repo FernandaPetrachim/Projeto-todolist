@@ -1,0 +1,942 @@
+{
+  "stats": {
+    "suites": 14,
+    "tests": 0,
+    "passes": 0,
+    "pending": 0,
+    "failures": 0,
+    "start": "2023-04-26T14:46:50.476Z",
+    "end": "2023-04-26T14:46:56.447Z",
+    "duration": 5971,
+    "testsRegistered": 28,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 14,
+    "hasOther": true,
+    "skipped": 28,
+    "hasSkipped": true
+  },
+  "results": [
+    {
+      "uuid": "f8a8a1a0-0739-4af1-91a5-3d19e1b76ac1",
+      "title": "",
+      "fullFile": "cypress/integration/project.spec.js",
+      "file": "cypress/integration/project.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "823c7280-55fe-468f-b501-91fb7e5d620e",
+          "title": "1 - Adicione à sua lista o título `Minha Lista de Tarefas` em uma tag `header`",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Será verificado se sua página possui uma tag `header` com o conteúdo `Minha Lista de Tarefas`",
+              "fullTitle": "1 - Adicione à sua lista o título `Minha Lista de Tarefas` em uma tag `header` Será verificado se sua página possui uma tag `header` com o conteúdo `Minha Lista de Tarefas`",
+              "timedOut": null,
+              "duration": 539,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('header').contains(TODO_PAGE_TITLE);",
+              "err": {
+                "message": "Uncaught SyntaxError: missing ) after argument list\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '1 - Adicione à sua lista o ...'",
+                "estack": "Uncaught SyntaxError: missing ) after argument list\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '1 - Adicione à sua lista o ...'",
+                "diff": null
+              },
+              "uuid": "3da7295e-a44b-4be8-97ca-da32ab573f04",
+              "parentUUID": "823c7280-55fe-468f-b501-91fb7e5d620e",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "3da7295e-a44b-4be8-97ca-da32ab573f04"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 539,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "bbf9b79c-1029-4aec-9036-bb0286ec8717",
+          "title": "2 - Adicione abaixo do título um parágrafo com o texto \"Clique duas vezes em um item para marcá-lo como completo\"",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Será verificado que existe na sua página um elemento com o id `funcionamento` com o conteúdo `Clique duas vezes em um item para marcá-lo como completo`",
+              "fullTitle": "2 - Adicione abaixo do título um parágrafo com o texto \"Clique duas vezes em um item para marcá-lo como completo\" Será verificado que existe na sua página um elemento com o id `funcionamento` com o conteúdo `Clique duas vezes em um item para marcá-lo como completo`",
+              "timedOut": null,
+              "duration": 476,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "cy.get(TODO_PAGE_DESCRIPTION_SELECTOR).contains(TODO_PAGE_DESCRIPTION);",
+              "err": {
+                "message": "Uncaught SyntaxError: missing ) after argument list\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '2 - Adicione abaixo do títu...'",
+                "estack": "Uncaught SyntaxError: missing ) after argument list\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '2 - Adicione abaixo do títu...'",
+                "diff": null
+              },
+              "uuid": "ef331d98-774f-48b6-971e-206714a1ac2e",
+              "parentUUID": "bbf9b79c-1029-4aec-9036-bb0286ec8717",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "ef331d98-774f-48b6-971e-206714a1ac2e"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 476,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "0b197f96-a4fc-46bc-9374-c83b062b2060",
+          "title": "3 - Adicione um input onde a pessoa usuária poderá digitar o nome do item que deseja adicionar à lista",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Será verificada a existência de um elemento do tipo `input` com o id `texto-tarefa`",
+              "fullTitle": "3 - Adicione um input onde a pessoa usuária poderá digitar o nome do item que deseja adicionar à lista Será verificada a existência de um elemento do tipo `input` com o id `texto-tarefa`",
+              "timedOut": null,
+              "duration": 357,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "cy.get(TODO_ADD_INPUT_SELECTOR).should('exist');",
+              "err": {
+                "message": "Uncaught SyntaxError: missing ) after argument list\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '3 - Adicione um input onde ...'",
+                "estack": "Uncaught SyntaxError: missing ) after argument list\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '3 - Adicione um input onde ...'",
+                "diff": null
+              },
+              "uuid": "3d490507-3fd1-4938-9140-e93861d739a4",
+              "parentUUID": "0b197f96-a4fc-46bc-9374-c83b062b2060",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "3d490507-3fd1-4938-9140-e93861d739a4"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 357,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "4d9e1d6e-e263-4fd0-ae26-b92b8c012dd5",
+          "title": "4 - Adicione uma lista ordenada de tarefas",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Será verificada a existência de um elemento `ol` com o id `lista-tarefas`",
+              "fullTitle": "4 - Adicione uma lista ordenada de tarefas Será verificada a existência de um elemento `ol` com o id `lista-tarefas`",
+              "timedOut": null,
+              "duration": 302,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "cy.get(TODO_LIST_SELECTOR).should('exist');",
+              "err": {
+                "message": "Uncaught SyntaxError: missing ) after argument list\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '4 - Adicione uma lista orde...'",
+                "estack": "Uncaught SyntaxError: missing ) after argument list\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '4 - Adicione uma lista orde...'",
+                "diff": null
+              },
+              "uuid": "9dc1d05c-2ece-4809-a612-668aa6546e57",
+              "parentUUID": "4d9e1d6e-e263-4fd0-ae26-b92b8c012dd5",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "9dc1d05c-2ece-4809-a612-668aa6546e57"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 302,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "daeefd8d-8fb1-4f59-a50d-3a5e448ecdba",
+          "title": "5 - Adicione um botão e, ao clicar nesse botão, um novo item deverá ser criado ao final da lista e o texto do input deve ser limpo",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Será verificada a existência de um elemento do tipo `button` com o id `criar-tarefa",
+              "fullTitle": "5 - Adicione um botão e, ao clicar nesse botão, um novo item deverá ser criado ao final da lista e o texto do input deve ser limpo Será verificada a existência de um elemento do tipo `button` com o id `criar-tarefa",
+              "timedOut": null,
+              "duration": 381,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "cy.get(TODO_ADD_BUTTON_SELECTOR).should('exist');",
+              "err": {
+                "message": "Uncaught SyntaxError: missing ) after argument list\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '5 - Adicione um botão e, ao...'",
+                "estack": "Uncaught SyntaxError: missing ) after argument list\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '5 - Adicione um botão e, ao...'",
+                "diff": null
+              },
+              "uuid": "75282e56-4e9d-427e-add7-64c0ec3916d9",
+              "parentUUID": "daeefd8d-8fb1-4f59-a50d-3a5e448ecdba",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "No campo de input será digitado o texto de uma tarefa qualquer e, em seguida, clicar-se-á no botão de criar tarefa. Será verificado que, após o clique, o texto digitado aparece na lista e desaparece do input",
+              "fullTitle": "5 - Adicione um botão e, ao clicar nesse botão, um novo item deverá ser criado ao final da lista e o texto do input deve ser limpo No campo de input será digitado o texto de uma tarefa qualquer e, em seguida, clicar-se-á no botão de criar tarefa. Será verificado que, após o clique, o texto digitado aparece na lista e desaparece do input",
+              "timedOut": null,
+              "duration": 0,
+              "state": "skipped",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "var todo1 = {\n  content: 'minha primeira tarefa'\n};\naddTodo(todo1);\ncheckTodoList([todo1]);\ncy.get(TODO_ADD_INPUT_SELECTOR).should('have.value', '');",
+              "err": {},
+              "uuid": "a84f6af1-ec85-4b15-8c6c-900713f1724c",
+              "parentUUID": "daeefd8d-8fb1-4f59-a50d-3a5e448ecdba",
+              "isHook": false,
+              "skipped": true
+            },
+            {
+              "title": "A adição de elementos na lista será feita algumas vezes, e será checado se todos os itens criados permanecem na lista na medida em que novos são adicionados",
+              "fullTitle": "5 - Adicione um botão e, ao clicar nesse botão, um novo item deverá ser criado ao final da lista e o texto do input deve ser limpo A adição de elementos na lista será feita algumas vezes, e será checado se todos os itens criados permanecem na lista na medida em que novos são adicionados",
+              "timedOut": null,
+              "duration": 0,
+              "state": "skipped",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "var todo1 = {\n  content: 'minha primeira tarefa'\n};\nvar todo2 = {\n  content: 'minha segunda tarefa'\n};\naddTodo(todo1);\ncheckTodoList([todo1]);\naddTodo(todo2);\ncheckTodoList([todo1, todo2]);\ncy.get(TODO_ADD_INPUT_SELECTOR).should('have.value', '');",
+              "err": {},
+              "uuid": "6aba2d64-15e3-42d5-b357-fdaa7ca118ea",
+              "parentUUID": "daeefd8d-8fb1-4f59-a50d-3a5e448ecdba",
+              "isHook": false,
+              "skipped": true
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "75282e56-4e9d-427e-add7-64c0ec3916d9"
+          ],
+          "pending": [],
+          "skipped": [
+            "a84f6af1-ec85-4b15-8c6c-900713f1724c",
+            "6aba2d64-15e3-42d5-b357-fdaa7ca118ea"
+          ],
+          "duration": 381,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "54381be5-bbe1-4d28-83f9-4a7d6f429042",
+          "title": "6 - Adicione três novas tarefas e ordene todas as tarefas da lista por ordem de criação",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Três itens serão criados na lista e será checado se eles estão ordenados por ordem de criação - ou seja, primeiro o primeiro item criado, depois o segundo, e assim por diante",
+              "fullTitle": "6 - Adicione três novas tarefas e ordene todas as tarefas da lista por ordem de criação Três itens serão criados na lista e será checado se eles estão ordenados por ordem de criação - ou seja, primeiro o primeiro item criado, depois o segundo, e assim por diante",
+              "timedOut": null,
+              "duration": 349,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "var todo1 = {\n  content: 'minha tarefa'\n};\nvar todo2 = {\n  content: 'minha outra tarefa'\n};\nvar todo3 = {\n  content: 'minha terceira tarefa'\n};\naddTodo(todo1);\ncheckTodoList([todo1]);\naddTodo(todo2);\ncheckTodoList([todo1, todo2]);\naddTodo(todo3);\ncheckTodoList([todo1, todo2, todo3]);",
+              "err": {
+                "message": "Uncaught SyntaxError: missing ) after argument list\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '6 - Adicione três novas tar...'",
+                "estack": "Uncaught SyntaxError: missing ) after argument list\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '6 - Adicione três novas tar...'",
+                "diff": null
+              },
+              "uuid": "56f39cf1-89d2-41ba-8c67-36f7315aa53f",
+              "parentUUID": "54381be5-bbe1-4d28-83f9-4a7d6f429042",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "56f39cf1-89d2-41ba-8c67-36f7315aa53f"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 349,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "e4512f7f-c315-4cc3-afae-e87f2e3706ab",
+          "title": "7 - Permita que um item da lista ao ser clicado tenha sua cor de fundo alterada para cinza",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Será verificado que, ao se carregar a página, os itens da lista **não tem** o estilo CSS `background-color: rgb(128, 128, 128)`",
+              "fullTitle": "7 - Permita que um item da lista ao ser clicado tenha sua cor de fundo alterada para cinza Será verificado que, ao se carregar a página, os itens da lista **não tem** o estilo CSS `background-color: rgb(128, 128, 128)`",
+              "timedOut": null,
+              "duration": 360,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "var todos = [{\n  content: 'uma tarefa qualquer'\n}, {\n  content: 'uma outra tarefa atoa'\n}];\naddTodos(todos);\ncheckTodoList(todos);\ncy.get(TODO_LIST_LINE_SELECTOR).first().should('not.have.css', 'background-color', 'rgb(128, 128, 128)');",
+              "err": {
+                "message": "Uncaught SyntaxError: missing ) after argument list\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '7 - Permita que um item da ...'",
+                "estack": "Uncaught SyntaxError: missing ) after argument list\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '7 - Permita que um item da ...'",
+                "diff": null
+              },
+              "uuid": "23fd2ce6-6685-4e02-b545-7c3c085c1834",
+              "parentUUID": "e4512f7f-c315-4cc3-afae-e87f2e3706ab",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Será verificado que, ao se clicar em um item da lista, ele passa a ter o estilo CSS `background-color: rgb(128, 128, 128)`",
+              "fullTitle": "7 - Permita que um item da lista ao ser clicado tenha sua cor de fundo alterada para cinza Será verificado que, ao se clicar em um item da lista, ele passa a ter o estilo CSS `background-color: rgb(128, 128, 128)`",
+              "timedOut": null,
+              "duration": 0,
+              "state": "skipped",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "var todos = [{\n  content: 'uma tarefa qualquer'\n}, {\n  content: 'uma outra tarefa atoa'\n}];\naddTodos(todos);\ncheckTodoList(todos);\ncy.get(TODO_LIST_LINE_SELECTOR).first().click().then(function ($li) {\n  expect($li).to.have.css('background-color', 'rgb(128, 128, 128)');\n});",
+              "err": {},
+              "uuid": "a9b05877-857a-45c4-93e4-35dbbb39e5db",
+              "parentUUID": "e4512f7f-c315-4cc3-afae-e87f2e3706ab",
+              "isHook": false,
+              "skipped": true
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "23fd2ce6-6685-4e02-b545-7c3c085c1834"
+          ],
+          "pending": [],
+          "skipped": [
+            "a9b05877-857a-45c4-93e4-35dbbb39e5db"
+          ],
+          "duration": 360,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "3d692d7a-603a-44b4-9a35-6dc634bfdd85",
+          "title": "8 - Não permita que seja possível selecionar mais de um elemento da lista ao mesmo tempo",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Será verificado que, quando um elemento da lista é selecionado, o elemento selecionado previamente deixa de sê-lo. Isso é verificado através da presença ou não do estilo `background-color: rgb(128, 128, 128)` no elemento",
+              "fullTitle": "8 - Não permita que seja possível selecionar mais de um elemento da lista ao mesmo tempo Será verificado que, quando um elemento da lista é selecionado, o elemento selecionado previamente deixa de sê-lo. Isso é verificado através da presença ou não do estilo `background-color: rgb(128, 128, 128)` no elemento",
+              "timedOut": null,
+              "duration": 319,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "var todos = [{\n  content: 'uma tarefa qualquer'\n}, {\n  content: 'uma outra tarefa atoa'\n}];\naddTodos(todos);\ncheckTodoList(todos);\ncy.get(TODO_LIST_LINE_SELECTOR).first().should('not.have.css', 'background-color', 'rgb(128, 128, 128)');\ncy.get(TODO_LIST_LINE_SELECTOR).first().click().then(function ($li) {\n  expect($li).to.have.css('background-color', 'rgb(128, 128, 128)');\n});\ncy.get(TODO_LIST_LINE_SELECTOR).last().click().then(function ($li) {\n  expect($li).to.have.css('background-color', 'rgb(128, 128, 128)');\n});\ncy.get(TODO_LIST_LINE_SELECTOR).first().should('not.have.css', 'background-color', 'rgb(128, 128, 128)');",
+              "err": {
+                "message": "Uncaught SyntaxError: missing ) after argument list\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '8 - Não permita que seja po...'",
+                "estack": "Uncaught SyntaxError: missing ) after argument list\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '8 - Não permita que seja po...'",
+                "diff": null
+              },
+              "uuid": "cf075097-fca8-4b19-9af0-8712f1fe2eb1",
+              "parentUUID": "3d692d7a-603a-44b4-9a35-6dc634bfdd85",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "cf075097-fca8-4b19-9af0-8712f1fe2eb1"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 319,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "263393a7-4ed9-4eac-9c9e-5eea7db141bd",
+          "title": "9 - Ao clicar duas vezes em um item, faça com que ele seja riscado, indicando que foi completado. Deve ser possível desfazer essa ação clicando novamente duas vezes no item",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Será verificado que, antes da ação ser disparada, o elemento adicionado à lista não tem nem a classe `completed` nem o estilo `line-through solid rgb(0, 0, 0)`",
+              "fullTitle": "9 - Ao clicar duas vezes em um item, faça com que ele seja riscado, indicando que foi completado. Deve ser possível desfazer essa ação clicando novamente duas vezes no item Será verificado que, antes da ação ser disparada, o elemento adicionado à lista não tem nem a classe `completed` nem o estilo `line-through solid rgb(0, 0, 0)`",
+              "timedOut": null,
+              "duration": 394,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "var todos = [{\n  content: 'já terminei essa tarefa'\n}, {\n  content: 'está eu ainda não terminei'\n}];\naddTodos(todos);\ncy.get(TODO_LIST_LINE_SELECTOR).first().should('not.have.class', 'completed');\ncy.get(TODO_LIST_LINE_SELECTOR).should('not.have.css', 'text-decoration', 'line-through solid rgb(0, 0, 0)');",
+              "err": {
+                "message": "Uncaught SyntaxError: missing ) after argument list\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '9 - Ao clicar duas vezes em...'",
+                "estack": "Uncaught SyntaxError: missing ) after argument list\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '9 - Ao clicar duas vezes em...'",
+                "diff": null
+              },
+              "uuid": "fcc69174-da1a-44f1-a62c-5c37475732da",
+              "parentUUID": "263393a7-4ed9-4eac-9c9e-5eea7db141bd",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Será verificado que a ação pedida é disparada mediante duplo clique no elemento da lista e que os elementos da lista completos tem em si a classe `completed` e a propriedade `text-decoration` com o valor `line-through solid rgb(0, 0, 0)`",
+              "fullTitle": "9 - Ao clicar duas vezes em um item, faça com que ele seja riscado, indicando que foi completado. Deve ser possível desfazer essa ação clicando novamente duas vezes no item Será verificado que a ação pedida é disparada mediante duplo clique no elemento da lista e que os elementos da lista completos tem em si a classe `completed` e a propriedade `text-decoration` com o valor `line-through solid rgb(0, 0, 0)`",
+              "timedOut": null,
+              "duration": 0,
+              "state": "skipped",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "var todos = [{\n  content: 'já terminei essa tarefa'\n}, {\n  content: 'está eu ainda não terminei'\n}];\naddTodos(todos);\ncy.get(TODO_LIST_LINE_SELECTOR).first().dblclick();\ncy.get(TODO_LIST_LINE_SELECTOR).first().should('have.class', 'completed');\ncy.get('.completed').should('have.css', 'text-decoration', 'line-through solid rgb(0, 0, 0)');",
+              "err": {},
+              "uuid": "01ace24b-4098-4096-8739-f51738703a5d",
+              "parentUUID": "263393a7-4ed9-4eac-9c9e-5eea7db141bd",
+              "isHook": false,
+              "skipped": true
+            },
+            {
+              "title": "Será verificado que, com um segundo duplo clique, um elemento completo deixa de sê-lo",
+              "fullTitle": "9 - Ao clicar duas vezes em um item, faça com que ele seja riscado, indicando que foi completado. Deve ser possível desfazer essa ação clicando novamente duas vezes no item Será verificado que, com um segundo duplo clique, um elemento completo deixa de sê-lo",
+              "timedOut": null,
+              "duration": 0,
+              "state": "skipped",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "var todos = [{\n  content: 'já terminei essa tarefa'\n}, {\n  content: 'está eu ainda não terminei'\n}];\naddTodos(todos);\ncy.get(TODO_LIST_LINE_SELECTOR).first().dblclick().dblclick();\ncy.get(TODO_LIST_LINE_SELECTOR).first().should('not.have.class', 'completed');\ncy.get(TODO_LIST_LINE_SELECTOR).first().should('not.have.css', 'text-decoration', 'line-through solid rgb(0, 0, 0)');",
+              "err": {},
+              "uuid": "941c1c3b-73e6-4908-a8bf-1e96f855103e",
+              "parentUUID": "263393a7-4ed9-4eac-9c9e-5eea7db141bd",
+              "isHook": false,
+              "skipped": true
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "fcc69174-da1a-44f1-a62c-5c37475732da"
+          ],
+          "pending": [],
+          "skipped": [
+            "01ace24b-4098-4096-8739-f51738703a5d",
+            "941c1c3b-73e6-4908-a8bf-1e96f855103e"
+          ],
+          "duration": 394,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "57aaa0ea-9b44-43b1-b307-b8167cc543e9",
+          "title": "10 - Adicione um botão que quando clicado deve apagar todos os itens da lista",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Será verificado que existe um elemento `button` com o id `apaga-tudo`",
+              "fullTitle": "10 - Adicione um botão que quando clicado deve apagar todos os itens da lista Será verificado que existe um elemento `button` com o id `apaga-tudo`",
+              "timedOut": null,
+              "duration": 331,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "cy.get(TODO_REMOVE_ALL_BUTTON_SELECTOR).should('exist');",
+              "err": {
+                "message": "Uncaught SyntaxError: missing ) after argument list\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '10 - Adicione um botão que ...'",
+                "estack": "Uncaught SyntaxError: missing ) after argument list\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '10 - Adicione um botão que ...'",
+                "diff": null
+              },
+              "uuid": "654f2d6c-81e0-4472-ab03-aa5e9e7eca84",
+              "parentUUID": "57aaa0ea-9b44-43b1-b307-b8167cc543e9",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Será verificado que, dado que uma lista possui tarefas, um clique no botão a deixa vazia",
+              "fullTitle": "10 - Adicione um botão que quando clicado deve apagar todos os itens da lista Será verificado que, dado que uma lista possui tarefas, um clique no botão a deixa vazia",
+              "timedOut": null,
+              "duration": 0,
+              "state": "skipped",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "var todos = [{\n  content: 'blablabla'\n}, {\n  content: 'hahahahaha'\n}];\naddTodos(todos);\ncy.get(TODO_REMOVE_ALL_BUTTON_SELECTOR).click();\ncheckTodoList();",
+              "err": {},
+              "uuid": "bf7a671f-2054-4669-af22-5b87f7f7aac1",
+              "parentUUID": "57aaa0ea-9b44-43b1-b307-b8167cc543e9",
+              "isHook": false,
+              "skipped": true
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "654f2d6c-81e0-4472-ab03-aa5e9e7eca84"
+          ],
+          "pending": [],
+          "skipped": [
+            "bf7a671f-2054-4669-af22-5b87f7f7aac1"
+          ],
+          "duration": 331,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "34b9e5ec-f05b-4863-bd4b-f9aca9777825",
+          "title": "11 - Adicione um botão que quando clicado remove **somente** os elementos finalizados da sua lista",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Será verificado que existe um elemento `button` com o id `remover-finalizados`",
+              "fullTitle": "11 - Adicione um botão que quando clicado remove **somente** os elementos finalizados da sua lista Será verificado que existe um elemento `button` com o id `remover-finalizados`",
+              "timedOut": null,
+              "duration": 429,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "cy.get(TODO_REMOVE_DONE_BUTTON_SELECTOR).should('exist');",
+              "err": {
+                "message": "Uncaught SyntaxError: missing ) after argument list\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '11 - Adicione um botão que ...'",
+                "estack": "Uncaught SyntaxError: missing ) after argument list\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '11 - Adicione um botão que ...'",
+                "diff": null
+              },
+              "uuid": "1bc95f02-eaa3-4624-bc82-ca228e4b6241",
+              "parentUUID": "34b9e5ec-f05b-4863-bd4b-f9aca9777825",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Será verificado que, ao clicar no botão, todos os elementos marcados como feitos são removidos da lista",
+              "fullTitle": "11 - Adicione um botão que quando clicado remove **somente** os elementos finalizados da sua lista Será verificado que, ao clicar no botão, todos os elementos marcados como feitos são removidos da lista",
+              "timedOut": null,
+              "duration": 0,
+              "state": "skipped",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "var todo1 = {\n  content: 'vou terminar essa tarefa logo'\n};\nvar todo2 = {\n  content: 'essa tarefa eu vou demorar para finalizar'\n};\nvar todo3 = {\n  content: 'essa tarefa tbm vai demorar...'\n};\nvar todos = [todo1, todo2, todo3];\naddTodos(todos);\ncy.get(\"\".concat(TODO_LIST_LINE_SELECTOR, \":nth-child(2)\")).dblclick();\ncy.get(\"\".concat(TODO_LIST_LINE_SELECTOR, \":nth-child(3)\")).dblclick();\ncy.get(TODO_REMOVE_DONE_BUTTON_SELECTOR).click();\ncheckTodoList([todo1]);",
+              "err": {},
+              "uuid": "005d8392-4ac0-4bfd-9d84-3e22a37b2eea",
+              "parentUUID": "34b9e5ec-f05b-4863-bd4b-f9aca9777825",
+              "isHook": false,
+              "skipped": true
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "1bc95f02-eaa3-4624-bc82-ca228e4b6241"
+          ],
+          "pending": [],
+          "skipped": [
+            "005d8392-4ac0-4bfd-9d84-3e22a37b2eea"
+          ],
+          "duration": 429,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "08263691-ff44-4987-815e-3a3d5d933895",
+          "title": "12 - Adicione um botão que salva o conteúdo da lista. Se você fechar e reabrir a página, a lista deve continuar no estado em que estava",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Será verificado que existe um elemento `button` com o id `salvar-tarefas`",
+              "fullTitle": "12 - Adicione um botão que salva o conteúdo da lista. Se você fechar e reabrir a página, a lista deve continuar no estado em que estava Será verificado que existe um elemento `button` com o id `salvar-tarefas`",
+              "timedOut": null,
+              "duration": 561,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "cy.get(TODO_SAVE_LIST_BUTTON_SELECTOR).should('exist');",
+              "err": {
+                "message": "Uncaught SyntaxError: missing ) after argument list\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '12 - Adicione um botão que ...'",
+                "estack": "Uncaught SyntaxError: missing ) after argument list\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '12 - Adicione um botão que ...'",
+                "diff": null
+              },
+              "uuid": "0d7262d8-cefa-46cb-933f-998b0b95bf92",
+              "parentUUID": "08263691-ff44-4987-815e-3a3d5d933895",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Será verificado que, quando a lista tem vários elementos, alguns dos quais marcados como finalizados, um recarregamento da página mantém a lista exatamente como está.",
+              "fullTitle": "12 - Adicione um botão que salva o conteúdo da lista. Se você fechar e reabrir a página, a lista deve continuar no estado em que estava Será verificado que, quando a lista tem vários elementos, alguns dos quais marcados como finalizados, um recarregamento da página mantém a lista exatamente como está.",
+              "timedOut": null,
+              "duration": 0,
+              "state": "skipped",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "var todo1 = {\n  content: 'primeira tarefa a ser salva'\n};\nvar todo2 = {\n  content: 'esta tarefa será salva também'\n};\nvar todo3 = {\n  content: 'mais uma para salvar'\n};\nvar todos = [todo1, todo2, todo3];\naddTodos(todos);\ncheckTodoList(todos);\ncy.get(TODO_LIST_LINE_SELECTOR).first().dblclick();\ncy.get(TODO_SAVE_LIST_BUTTON_SELECTOR).click();\ncy.reload();\nvar newTodosState = [(0, _objectSpread2[\"default\"])({}, todo1, {\n  done: true\n}), todo2, todo3];\ncheckTodoList(newTodosState);",
+              "err": {},
+              "uuid": "40aafebe-a367-4c09-97fc-64ba5b2f86b3",
+              "parentUUID": "08263691-ff44-4987-815e-3a3d5d933895",
+              "isHook": false,
+              "skipped": true
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "0d7262d8-cefa-46cb-933f-998b0b95bf92"
+          ],
+          "pending": [],
+          "skipped": [
+            "40aafebe-a367-4c09-97fc-64ba5b2f86b3"
+          ],
+          "duration": 561,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "ba2370a8-de24-4bd3-9562-152b2bec0c30",
+          "title": "13 - Adicione dois botões, que permitam mover o item selecionado para cima ou para baixo na lista de tarefas",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Será verificada a existência de dois elementos `button`, um com o id `mover-cima` e o outro com o id `mover-baixo`",
+              "fullTitle": "13 - Adicione dois botões, que permitam mover o item selecionado para cima ou para baixo na lista de tarefas Será verificada a existência de dois elementos `button`, um com o id `mover-cima` e o outro com o id `mover-baixo`",
+              "timedOut": null,
+              "duration": 347,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "cy.get(TODO_MOVE_UP_BUTTON_SELECTOR).should('exist');\ncy.get(TODO_MOVE_DOWN_BUTTON_SELECTOR).should('exist');",
+              "err": {
+                "message": "Uncaught SyntaxError: missing ) after argument list\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '13 - Adicione dois botões, ...'",
+                "estack": "Uncaught SyntaxError: missing ) after argument list\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '13 - Adicione dois botões, ...'",
+                "diff": null
+              },
+              "uuid": "62d11405-c202-4c50-a6c2-11a4d1e96e92",
+              "parentUUID": "ba2370a8-de24-4bd3-9562-152b2bec0c30",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Será verificado que, dado que diversos elementos foram acrescentados à lista, movimentá-los de formas diversas os deixa nas posições esperadas",
+              "fullTitle": "13 - Adicione dois botões, que permitam mover o item selecionado para cima ou para baixo na lista de tarefas Será verificado que, dado que diversos elementos foram acrescentados à lista, movimentá-los de formas diversas os deixa nas posições esperadas",
+              "timedOut": null,
+              "duration": 0,
+              "state": "skipped",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "var todos = [{\n  content: 'primeira tarefa'\n}, {\n  content: 'segunda tarefa'\n}, {\n  content: 'terceira tarefa'\n}, {\n  content: 'quarta tarefa'\n}];\nvar newTodosState = [todos[3], todos[2], todos[1], todos[0]];\naddTodos(todos);\ncheckTodoList(todos);\ncy.get(\"\".concat(TODO_LIST_LINE_SELECTOR, \":nth-child(2)\")).click();\ncy.get(TODO_MOVE_UP_BUTTON_SELECTOR).click();\ncy.get(\"\".concat(TODO_LIST_LINE_SELECTOR, \":nth-child(4)\")).click();\ncy.get(TODO_MOVE_UP_BUTTON_SELECTOR).click();\ncy.get(\"\".concat(TODO_LIST_LINE_SELECTOR, \":nth-child(3)\")).click();\ncy.get(TODO_MOVE_UP_BUTTON_SELECTOR).click();\ncy.get(\"\".concat(TODO_LIST_LINE_SELECTOR, \":nth-child(1)\")).click();\ncy.get(TODO_MOVE_DOWN_BUTTON_SELECTOR).click();\ncy.get(\"\".concat(TODO_LIST_LINE_SELECTOR, \":nth-child(4)\")).click();\ncy.get(TODO_MOVE_UP_BUTTON_SELECTOR).click();\ncy.get(\"\".concat(TODO_LIST_LINE_SELECTOR, \":nth-child(3)\")).click();\ncy.get(TODO_MOVE_UP_BUTTON_SELECTOR).click();\ncheckTodoList(newTodosState);",
+              "err": {},
+              "uuid": "7374af62-5e83-4ecf-a465-48f504d455c3",
+              "parentUUID": "ba2370a8-de24-4bd3-9562-152b2bec0c30",
+              "isHook": false,
+              "skipped": true
+            },
+            {
+              "title": "Será verificado que, caso algum elemento esteja finalizado, este status deve persistir ainda que se mova o elemento",
+              "fullTitle": "13 - Adicione dois botões, que permitam mover o item selecionado para cima ou para baixo na lista de tarefas Será verificado que, caso algum elemento esteja finalizado, este status deve persistir ainda que se mova o elemento",
+              "timedOut": null,
+              "duration": 0,
+              "state": "skipped",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "var todos = [{\n  content: 'primeira tarefa',\n  done: true\n}, {\n  content: 'segunda tarefa'\n}];\naddTodos(todos);\ncy.get(\"\".concat(TODO_LIST_LINE_SELECTOR, \":nth-child(1)\")).click().dblclick();\ncy.get(TODO_MOVE_DOWN_BUTTON_SELECTOR).click();\ncy.get(TODO_MOVE_UP_BUTTON_SELECTOR).click();\ncheckTodoList(todos);",
+              "err": {},
+              "uuid": "a182b964-c905-4fc7-8b8b-af89350d4b6d",
+              "parentUUID": "ba2370a8-de24-4bd3-9562-152b2bec0c30",
+              "isHook": false,
+              "skipped": true
+            },
+            {
+              "title": "Será verificado que, caso nenhum elemento esteja selecionado, clicar nos botões não altera a lista",
+              "fullTitle": "13 - Adicione dois botões, que permitam mover o item selecionado para cima ou para baixo na lista de tarefas Será verificado que, caso nenhum elemento esteja selecionado, clicar nos botões não altera a lista",
+              "timedOut": null,
+              "duration": 0,
+              "state": "skipped",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "var todos = [{\n  content: 'primeira tarefa'\n}, {\n  content: 'segunda tarefa'\n}, {\n  content: 'terceira tarefa'\n}, {\n  content: 'quarta tarefa'\n}];\naddTodos(todos);\ncheckTodoList(todos);\ncy.get(TODO_MOVE_DOWN_BUTTON_SELECTOR).click();\ncy.get(TODO_MOVE_UP_BUTTON_SELECTOR).click();\ncy.get(TODO_MOVE_UP_BUTTON_SELECTOR).click();\ncheckTodoList(todos);",
+              "err": {},
+              "uuid": "ec171879-cfd9-4de9-9ddd-892eb98a1848",
+              "parentUUID": "ba2370a8-de24-4bd3-9562-152b2bec0c30",
+              "isHook": false,
+              "skipped": true
+            },
+            {
+              "title": "Será verificado que um elemento que esteja selecionado deve se manter selecionado mesmo depois de movido",
+              "fullTitle": "13 - Adicione dois botões, que permitam mover o item selecionado para cima ou para baixo na lista de tarefas Será verificado que um elemento que esteja selecionado deve se manter selecionado mesmo depois de movido",
+              "timedOut": null,
+              "duration": 0,
+              "state": "skipped",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "var todos = [{\n  content: 'primeira tarefa'\n}, {\n  content: 'segunda tarefa'\n}];\naddTodos(todos);\ncy.get(\"\".concat(TODO_LIST_LINE_SELECTOR, \":nth-child(1)\")).click();\ncy.get(TODO_MOVE_DOWN_BUTTON_SELECTOR).click();\nvar newTodos = [{\n  content: 'segunda tarefa'\n}, {\n  content: 'primeira tarefa'\n}];\ncheckTodoList(newTodos);\ncy.get(TODO_MOVE_UP_BUTTON_SELECTOR).click();\ncheckTodoList(todos);",
+              "err": {},
+              "uuid": "4f7648d5-0545-46fa-a4e3-29c70a2c916d",
+              "parentUUID": "ba2370a8-de24-4bd3-9562-152b2bec0c30",
+              "isHook": false,
+              "skipped": true
+            },
+            {
+              "title": "_Caso especial!_ Será verificado que, caso se tente subir o elemento no topo da lista ou, caso se tente descer o último elemento da lista, esta não deve ser alterada",
+              "fullTitle": "13 - Adicione dois botões, que permitam mover o item selecionado para cima ou para baixo na lista de tarefas _Caso especial!_ Será verificado que, caso se tente subir o elemento no topo da lista ou, caso se tente descer o último elemento da lista, esta não deve ser alterada",
+              "timedOut": null,
+              "duration": 0,
+              "state": "skipped",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "var todos = [{\n  content: 'primeira tarefa'\n}, {\n  content: 'segunda tarefa'\n}];\naddTodos(todos);\ncy.get(\"\".concat(TODO_LIST_LINE_SELECTOR, \":nth-child(1)\")).click();\ncy.get(TODO_MOVE_UP_BUTTON_SELECTOR).click();\ncheckTodoList(todos);\ncy.get(\"\".concat(TODO_LIST_LINE_SELECTOR, \":nth-child(2)\")).click();\ncy.get(TODO_MOVE_DOWN_BUTTON_SELECTOR).click();\ncheckTodoList(todos);",
+              "err": {},
+              "uuid": "d99fd4b4-ef6b-4b58-b19b-a1651f4e8021",
+              "parentUUID": "ba2370a8-de24-4bd3-9562-152b2bec0c30",
+              "isHook": false,
+              "skipped": true
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "62d11405-c202-4c50-a6c2-11a4d1e96e92"
+          ],
+          "pending": [],
+          "skipped": [
+            "7374af62-5e83-4ecf-a465-48f504d455c3",
+            "a182b964-c905-4fc7-8b8b-af89350d4b6d",
+            "ec171879-cfd9-4de9-9ddd-892eb98a1848",
+            "4f7648d5-0545-46fa-a4e3-29c70a2c916d",
+            "d99fd4b4-ef6b-4b58-b19b-a1651f4e8021"
+          ],
+          "duration": 347,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "30893e7e-cff3-49fd-b88b-b9fe08a3fe62",
+          "title": "14 - Adicione um botão que, quando clicado, remove o item selecionado",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Será verificada a presença de um elemento `button` com um id `remover-selecionado`",
+              "fullTitle": "14 - Adicione um botão que, quando clicado, remove o item selecionado Será verificada a presença de um elemento `button` com um id `remover-selecionado`",
+              "timedOut": null,
+              "duration": 436,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "cy.get(TODO_REMOVE_SELECTED_BUTTON_SELECTOR).should('exist');",
+              "err": {
+                "message": "Uncaught SyntaxError: missing ) after argument list\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '14 - Adicione um botão que,...'",
+                "estack": "Uncaught SyntaxError: missing ) after argument list\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '14 - Adicione um botão que,...'",
+                "diff": null
+              },
+              "uuid": "75fca767-92d5-4fa9-83e1-c09705547297",
+              "parentUUID": "30893e7e-cff3-49fd-b88b-b9fe08a3fe62",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Será verificado que, no clicar no botão, somente o elemento selecionado é removido",
+              "fullTitle": "14 - Adicione um botão que, quando clicado, remove o item selecionado Será verificado que, no clicar no botão, somente o elemento selecionado é removido",
+              "timedOut": null,
+              "duration": 0,
+              "state": "skipped",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "var todo1 = {\n  content: 'não posso remover essa tarefa'\n};\nvar todo2 = {\n  content: 'essa tarefa aqui eu posso remover'\n};\nvar todos = [todo1, todo2];\naddTodos(todos);\ncheckTodoList(todos);\ncy.get(TODO_LIST_LINE_SELECTOR).last().click();\ncy.get(TODO_REMOVE_SELECTED_BUTTON_SELECTOR).click();\ncheckTodoList([todo1]);",
+              "err": {},
+              "uuid": "4f28f586-152a-43aa-a806-ba6de05e3942",
+              "parentUUID": "30893e7e-cff3-49fd-b88b-b9fe08a3fe62",
+              "isHook": false,
+              "skipped": true
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "75fca767-92d5-4fa9-83e1-c09705547297"
+          ],
+          "pending": [],
+          "skipped": [
+            "4f28f586-152a-43aa-a806-ba6de05e3942"
+          ],
+          "duration": 436,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false
+      },
+      "version": "4.1.0"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports",
+        "overwrite": true,
+        "html": false,
+        "json": true
+      },
+      "version": "4.1.0"
+    }
+  }
+}
